@@ -17,6 +17,6 @@ python translate.py
 ### Test
 ```
 python translate.py --decode
-> ¿Coómo estas?
+> ¿Cómo estas?
 > Bien
 ```
