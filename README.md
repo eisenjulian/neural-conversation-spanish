@@ -6,5 +6,17 @@ as well a pre-trained word vectors from [FastText](https://github.com/facebookre
 to train a LSTM network in TensorFlow to achieve a conversation agent.
 
 ### Set Up
+Python installation with TensorFlow. Check out https://www.tensorflow.org/install/
+Download the subtitle data from opensubtitles.org from [here](http://opus.lingfil.uu.se/download.php?f=OpenSubtitles2016/es.raw.tar.gz). It may take a while...
 
-### Results
+### Train
+```
+python translate.py
+```
+
+### Test
+```
+python translate.py --decode
+> ¿Coómo estas?
+> Bien
+```
